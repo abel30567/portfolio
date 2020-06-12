@@ -1,0 +1,15 @@
+.ExternalLinks .btn {
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  /* border-radius: 5px; */
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1%;
+}
+.ExternalLinks p{
+  margin-bottom: 0px;
+  white-space: normal !important;
+  text-align: left;
+}
+@media only screen and (max-width: 1000px) {
+
+}

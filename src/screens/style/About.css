@@ -1,0 +1,120 @@
+.messageContainer{
+    padding: 20%;
+}
+.contact{
+    padding-left: 8%;
+    padding-right: 5%;
+}
+.contactContainer{
+    background-color: #465dff;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 0 2px 19px 4px rgba(0, 0, 0, 0.14);
+}
+.contactContainer .contactHead{
+    padding-top: 5%;
+    margin-top: 10%;
+}
+.contactContainer #profilePic{
+    border-radius: 100%;
+    height: 5em;
+    /* margin-right: 10%; */
+    margin-top: 2%;
+    float:right;
+}
+.contactContainer .contactHead #contactTitle{
+    color: white;
+}
+.contactContainer #email{
+    margin-top: 5%;
+}
+.contactContainer #subject{
+    margin-top: 2%;
+}
+.contactContainer #body{
+    margin-top: 2%;
+    height: 8em;
+}
+.contactContainer .inputForm{
+    border: 1px transparent;
+    border-radius: 5px;
+    width: 70%;
+}
+#inputConfirmation{
+    margin-top: 5.5%;
+    margin-left: 1%;
+    font-size: 1.3em;
+    color: #6ac759;
+    background-color: white;
+    border-radius: 100%;
+}
+.contactContainer .btn{
+    background-color: #6ac759;
+    margin-top: 2%;
+    width: 65%;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .messageContainer {
+        padding: 5%;
+        padding-top: 30%;
+    }
+    .contact{
+        margin-bottom: 125px;
+        padding-left: 0px;
+        /* padding-right: 0px; */
+    }
+    .contactContainer {
+        height: 95%;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .messageContainer {
+        padding: 5%;
+        padding-top: 30%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    
+    .messageContainer h1 {
+        font-size: 2rem;
+    }
+    .contactContainer .btn{
+        background-color: #6ac759;
+        margin-top: 2%;
+        width: 75%;
+    }
+    .contact{
+        margin-bottom: 125px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contactContainer {
+        height: 95%;
+    }
+}
+@media only screen and (max-width: 525px) {
+    .messageContainer {
+        padding: 5%;
+    }
+    .contact{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .contactContainer .inputForm {
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 325px) {
+    #contactTitle {
+        font-size: 1.4rem;
+    }
+    .contactHead .col-6 {
+        padding-left:0px;
+    }
+    
+}

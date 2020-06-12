@@ -1,0 +1,17 @@
+#title{
+    font-weight: bold;
+}
+#subtitle{
+    padding-left: 10px;
+}
+.nav-link{
+    border-bottom: 1.5px solid black;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 325px) {
+    .navbar-brand .col-sm-12{
+        padding-left:0px;
+    }
+}

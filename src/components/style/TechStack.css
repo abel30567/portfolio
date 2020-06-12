@@ -1,0 +1,9 @@
+.TechStack p {
+  font-weight: 200;
+}
+@media only screen and (max-width: 767px) {
+  .TechStack {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+ }
