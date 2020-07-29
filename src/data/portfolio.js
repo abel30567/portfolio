@@ -121,6 +121,33 @@ export default [
         }
       ]
     },
+    { title: "LocalJSCompress",
+    description: "This is a small application I made that compresses images to get optimal image file size results while maintaining their image quality. I was able to reduce my image files by six times their original size. I created this application because I needed to optimize image sizes to render for customers on the Naruto CCG Application within 3 seconds of initial load. Thanks to this application it is easy to optimize image size when performing a batch job that requires images.",
+    projectHref: "https://github.com/abel30567/localjscompress",
+    projectImage : "https://miro.medium.com/max/2000/1*GhOvONPy1KOJWhZsTVu-rg.png",
+    bkgImg:"#46483F",
+    tech: [
+      {
+        "icon": "cib-node-js",
+        "iconColor": "#689f62",
+        "name": "Node.js",
+      },
+    ],
+    links: [
+      {
+        "name" : "How I Compressed Images with Jimp and Imagemin with Node.js",
+        "url" : "https://medium.com/@claudio_69833/how-i-compressed-images-with-jimp-and-imagemin-with-node-js-ff863a4c46ac?sk=c323e5ce96e264c662251b8012451940",
+        "icon" : "cib-medium",
+        "iconColor": "black",
+      },
+      {
+        "name" : "LocalJSCompress Repo",
+        "url" : "https://github.com/abel30567/localjscompress",
+        "icon" : "cib-github",
+        "iconColor": "black",
+      },
+    ]
+  },
     { title: "Bitcore-Insight",
     description: "This is a forked API from Bitpay's Bitcore-Explorers. This API helps Javascript developers get started on using Bitcoin's test network to understand how to make transactions and how to look up the balance of a Bitcoin Address. \nIt is fairly challenging to make Bitcoin transactions which is why I created such a package that can be installed through npm. I also made some documentation on how to make Bitcoin transactions using Javascript.",
     projectHref: "https://www.npmjs.com/package/bitcore-insight",
