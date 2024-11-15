@@ -1,7 +1,7 @@
 // Icons from CORE UI https://coreui.io/icons/free/
 export default [
     { title: "Naruto CCG Community App",
-      description: "The Naruto CCG Community App is an Android and iOS application for players and collectors of the Naruto CCG Card game. \nThis application gives community members the ability to create virtual decks to plan out their future decks to play with other players and to keep a collection of the Naruto cards that they have collected. Users can message each other through a realtime chat to be able to trade cards with each other or to communitcate with other community members. \n\n The app is on the Apple App Store and the Android APK can be installed through the app website.  It has over 4,000 registered users and 500 monthly active users.",
+      description: "The Naruto CCG Community App is an Android and iOS application for players and collectors of the Naruto CCG Card game. \nThis application gives community members the ability to create virtual decks to plan out their future decks to play with other players and to keep a collection of the Naruto cards that they have collected. Users can message each other through a realtime chat to be able to trade cards with each other or to communitcate with other community members. \n\n The app is on the Apple App Store and the Android APK can be installed through the app website.  It has over 33,000 registered users and 500 weekly active users.",
       projectHref: "https://app.narutoccg.com",
       projectImage : "https://app.narutoccg.com/static/media/chat.370ad133.png",
       bkgImg:"#eeeeee",
@@ -65,58 +65,6 @@ export default [
           "name" : "Android App Installation",
           "url" : "https://app.narutoccg.com/android",
           "icon" : "cib-android-alt",
-          "iconColor": "black",
-        }
-      ]
-    },
-    { title: "Naruto CCG Marketplace",
-      description: "The Naruto CCG Marketplace is a social marketplace dedicated to the Naruto Collectible Card Game. Community members can sign up and sell their Naruto CCG related items on here and only be charged a 10% fee. \nUsers on this marketplace can also earn money by sharing other community member's sales posts and connecting a buyer and a seller. The marketplace is a solution to having community members being scammed through direct selling through Facebook. The Naruto CCG Marketplace makes it easy for community members to post a product for sale and get started within 5 minutes. \nThe Naruto CCG Marketplace also handles payments for users to be able to receive their payments and transfer them to their bank accounts.",
-      projectHref: "https://naruto-ccg.com",
-      projectImage : "https://naruto-ccg.com/static/media/post.0bea1a6b.png",
-      bkgImg:"white",
-      tech: [
-        {
-          "icon": "cib-node-js",
-          "iconColor": "#689f62",
-          "name": "Node.js",
-        },
-        {
-          "icon": "cib-react",
-          "iconColor": "#61dafb",
-          "name": "React.js",
-        },
-        {
-          "icon": "cib-mongodb",
-          "iconColor": "#449945",
-          "name": "MongoDB",
-        },
-        {
-          "icon": "cib-amazon-aws",
-          "iconColor": "#ff9901",
-          "name": "AWS EC2, SES, SQS, SNS",
-        },
-        {
-          "icon": "cib-stripe",
-          "iconColor": "#53f",
-          "name": "Stripe Connect",
-        },
-        {
-          "icon": "cib-paypal",
-          "iconColor": "#002169",
-          "name": "PayPal Order and Payouts API",
-        },
-      ],
-      links: [
-        {
-          "name" : "Selling on The Naruto CCG Marketplace",
-          "url" : "https://naruto-ccg.com/more",
-          "icon" : "cil-cash",
-          "iconColor": "black",
-        },
-        {
-          "name" : "Sharing on The Naruto CCG Marketplace",
-          "url" : "https://naruto-ccg.com/sharingmore",
-          "icon" : "cil-share-alt",
           "iconColor": "black",
         }
       ]
