@@ -1,8 +1,13 @@
 // Icons from CORE UI https://coreui.io/icons/free/
 export default [
-    { title: "Naruto CCG Community App",
-      description: "The Naruto CCG Community App is an Android and iOS application for players and collectors of the Naruto CCG Card game. \nThis application gives community members the ability to create virtual decks to plan out their future decks to play with other players and to keep a collection of the Naruto cards that they have collected. Users can message each other through a realtime chat to be able to trade cards with each other or to communitcate with other community members. \n\n The app is on the Apple App Store and the Android APK can be installed through the app website.  It has over 33,000 registered users and 500 weekly active users.",
-      projectHref: "https://app.narutoccg.com",
+    { title: "Home Affordability Calculator",
+      description: `The Home Affordability Calculator is a React Native web application for people trying to
+determine their house price range. This application gives users the ability to clearly see how
+each of their expenses, incomes, and saving/investing components impacts their affordability.
+Users can input their own monthly expenses and incomes, along with other components
+involved with financing a house. Users can more accurately assess what they can afford without
+relying solely on real estate agents or loan officers.`,
+      projectHref: "https://home-afford-v1.netlify.app/",
       projectImage : "https://app.narutoccg.com/static/media/chat.370ad133.png",
       bkgImg:"#eeeeee",
       tech: [
@@ -21,26 +26,26 @@ export default [
           "iconColor": "#61dafb",
           "name": "React Native",
         },
-        {
-          "icon": "cib-mongodb",
-          "iconColor": "#449945",
-          "name": "MongoDB",
-        },
-        {
-          "icon": "cib-socket-io",
-          "iconColor": "black",
-          "name": "Socket.io",
-        },
-        {
-          "icon": "cib-firebase",
-          "iconColor": "#ffcb2b",
-          "name": "Firebase",
-        },
-        {
-          "icon": "cib-amazon-aws",
-          "iconColor": "#ff9901",
-          "name": "AWS EC2",
-        },
+        // {
+        //   "icon": "cib-mongodb",
+        //   "iconColor": "#449945",
+        //   "name": "MongoDB",
+        // },
+        // {
+        //   "icon": "cib-socket-io",
+        //   "iconColor": "black",
+        //   "name": "Socket.io",
+        // },
+        // {
+        //   "icon": "cib-firebase",
+        //   "iconColor": "#ffcb2b",
+        //   "name": "Firebase",
+        // },
+        // {
+        //   "icon": "cib-amazon-aws",
+        //   "iconColor": "#ff9901",
+        //   "name": "AWS EC2",
+        // },
       ],
       links: [
         {
@@ -69,16 +74,18 @@ export default [
         }
       ]
     },
-    { title: "LocalJSCompress",
-    description: "This is a small application I made that compresses images to get optimal image file size results while maintaining their image quality. I was able to reduce my image files by six times their original size. I created this application because I needed to optimize image sizes to render for customers on the Naruto CCG Application within 3 seconds of initial load. Thanks to this application it is easy to optimize image size when performing a batch job that requires images.",
+    { title: "RCA Convergence Algorithm",
+    description: `The RCA Convergence Algorithm is a python-based script that generates buy and sell signals to
+trade a group of stocks daily. The script was developed and back-tested on Quantopian.com, in
+order to produce an out-performing trading strategy with minimal portfolio risk.`,
     projectHref: "https://github.com/abel30567/localjscompress",
     projectImage : "https://miro.medium.com/max/2000/1*GhOvONPy1KOJWhZsTVu-rg.png",
     bkgImg:"#46483F",
     tech: [
       {
-        "icon": "cib-node-js",
-        "iconColor": "#689f62",
-        "name": "Node.js",
+        "icon": "cib-python",
+        "name": "Python",
+        "iconColor": "black",
       },
     ],
     links: [
@@ -139,16 +146,19 @@ export default [
       },
     ]
   },
-    { title: "Dental Courier",
-      description: "This is a sample React Native app that has a simple login screen and uses a phone's camera to take a photo to complete pick up and delivery orders for couriers dedicated to dental offices. Couriers are meant to scan packages with the barcodes on them as proof of pickup or delivery. The camera detects the barcode and then populates it in the confirmation screen.",
+    { title: "Bellagos Required LTC Funds Calculator",
+      description: `The funds calculator determines how much money the fictitious country of Bellagos will need to
+collect to cover the cost of long-term care for its aging population. The calculator is a solution to
+the 2018 Case Study Competition held by the Society of Actuaries. The benefits formula I
+defined is used project the amount needed each year for a ten-year time period.`,
       projectHref: "https://github.com/abel30567/dentalCouriers",
       projectImage : "https://pbs.twimg.com/media/EaQV5gtWsAAmbsu?format=jpg",
       bkgImg:"#eeeeee",
       tech: [
         {
-          "icon": "cib-react",
+          "icon": "cib-rstudio",
           "iconColor": "#61dafb",
-          "name": "React Native",
+          "name": "R Code/Script",
         },
       ],
       links: [
@@ -160,27 +170,24 @@ export default [
         }
       ]
     },
-    { title: "PhysPy: an interactive python tutorial for Intermediate Physics Lab",
-    description: "This is an introduction to using Python for data analysis for the Physics labs at Florida International University. A friend and I got together and made these tutorials to make it easier on future physics labs courses to learn Python since we had no knowledge of coding prior to these labs. This shows students how to use matplotlib and numpy for data analysis based on specific physics labs.",
+    { title: "Batch Emailing Script",
+    description: `The batch email script was created to send multiple insurance agents the same emails based on
+their credential status. Whenever an agent’s license is expired, their information is used to send
+them email reminder to renew their license accordingly.`,
     projectHref: "https://github.com/abel30567/PhysPy",
     projectImage : "https://pbs.twimg.com/tweet_video_thumb/EaQd1r8XQAEmD7n.jpg",
     bkgImg:"#eeeeee",
     tech: [
       {
-        "icon": "cib-python",
-        "name": "Python",
+        "icon": "cib-microsoft",
+        "name": "Microsoft Excel",
         "iconColor": "black",
       },
       {
-        "icon": "cib-anaconda",
-        "name": "Anaconda",
+        "icon": "cib-microsoft",
+        "name": "Visual Basic ",
         "iconColor": "#41ab29",
-      },
-      {
-        "icon": "cib-jupyter",
-        "name": "Jupyter Notebooks",
-        "iconColor": "#ec7424",
-      },
+      }
     ],
     links: [
       {
